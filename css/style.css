@@ -1,0 +1,180 @@
+
+
+
+body {
+background-color: #211F1F;
+
+
+}
+
+#container {
+  width: 75%;
+  background-color: #211F1F;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#othercontainer {
+  display: block;
+  max-width: 100%;
+
+
+
+}
+
+
+
+img  {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* -----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+----------------HEADER------------------------------ */
+
+header{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+header i {
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: lighter;
+}
+  /* -----------------------------------------------------
+  -----------------------------------------------------
+  -----------------------------------------------------
+--------------BODY------------------------ */
+
+
+
+#mainheadline {
+  width: 100%;
+  overflow: hidden;
+
+  }
+
+#headline {
+  color: white;
+  position: relative;
+  top: -105px;
+  left: -90px;
+  font-size: 12px;
+
+}
+
+button {
+  position: relative;
+  top: -65px;
+  left: 30px;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 10.5px;
+  width: 120px;
+}
+
+
+/* *********-------------------------------------------------*************
+*********-------------------------------------------------*************
+*********-------------------------------------------------*************
+*********-------------------------------------------------*************
+*/
+
+#secondpost {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+
+
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  }
+
+#secondpost img {
+  height: 100%;
+  width: 45%;
+}
+
+#secondpost .two {
+  width: 50%;
+}
+
+
+
+/* *********-----------------------------------------------------
+*********-----------------------------------------------------
+*********----------------------------------------------------- */
+
+
+#thirdpost {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  }
+
+#thirdpost img {
+  height: 100%;
+  width: 35%;
+}
+
+#thirdpost .two {
+  width: 60%;
+}
+
+
+/* *********-----------------------------------------------------
+*********-----------------------------------------------------
+*********----------------------------------------------------- */
+#fourthpost {
+  width: 100%;
+  height: 300px;
+  display: flex;
+
+
+
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  }
+
+#fourthpost img {
+  height: 100%;
+  width: 60%;
+}
+#fourthpost .two {
+  width: 35%;
+}
+
+/* *********-----------------------------------------------------
+*********-----------------------------------------------------
+*********----------------------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 768px){
